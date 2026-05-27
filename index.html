@@ -1,75 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        :root {
-            color: #fff;
-            background: #000;
-            margin: 0;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valerij Karimovics | Portfolio</title>
 
-        h2 {
-            font-weight: 100;
-        }
-        .first {
-            display: inline-block;
-            width: 10%;
-        }
-        .tool__item {
-            position: relative;
-            display: inline-block;
-            width: 25%;
-            font-family: monospace;
-            font-size: 14px;
-            line-height: 1.1;
-            white-space: pre;
-            justify-self: end;
-        }
-        .container {
-            position: absolute;
-            display: inline-block;
-            font-family: monospace;
-            width: 55%;
-            justify-items: end;
-            margin-top: 10vh;
-        }
+  <!-- NES.css -->
+  <link
+    href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+  />
 
-    </style>
-    <title>Valerij-Karimov.html</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <div class="first"></div>
-        <div class="tool__item">
+  <div class="site-wrapper">
+    <header class="site-header">
+      <nav class="nav">
+        <button class="nes-btn is-primary" data-page="main">Main</button>
+        <button class="nes-btn" data-page="about">About</button>
+        <button class="nes-btn" data-page="experience">Experience</button>
+        <button class="nes-btn" data-page="projects">Projects</button>
+        <button class="nes-btn" data-page="contact">Contact</button>
+      </nav>
+    </header>
 
-  .-'  /
-.'    /   /`.
-|    /   /  |
-|    \__/   |
-`.         .'
-  `.     .'
-    | ][ |
-    | ][ |
-    | ][ |
-    | ][ |
-    | ][ |
-    | ][ |
-    | ][ |
-    | ][ |
-    | ][ |
-  .'  __  `.
-  |  /  \  |
-  |  \__/  |
-  `.      .'
-    `----'
+    <main class="site-main">
+      <section id="main" class="page active">
+        <div class="nes-container is-dark with-title">
+          <p class="title">Main</p>
 
-    </div>
-        <div class="container">
-        <h1>На сайте проходят технические работы</h1>
-        <h2>приносим извинения за временные неудобства</h2>
-    </div>
+          <h1>Hi, I’m Valerij</h1>
 
+          <p>
+            Frontend / Fullstack developer focused on practical web applications,
+            backend systems, and creative web experiences.
+          </p>
 
+          <p>
+            I enjoy building projects that combine structured functionality with
+            visually interesting interfaces — from admin dashboards and gallery
+            systems to experimental frontend ideas inspired by retro aesthetics
+            and interactive web design.
+          </p>
+
+          <p>
+            Most of my current work revolves around Laravel, JavaScript, Nuxt,
+            PHP, PostgreSQL, deployment workflows, and UI experimentation.
+          </p>
+
+          <h2>Current projects:</h2>
+
+          <ul class="nes-list is-disc">
+            <li>HRM SaaS dashboard system</li>
+            <li>Laravel photo gallery platform</li>
+            <li>Creative frontend and WebGL experiments</li>
+          </ul>
+
+          <p>
+            This website is a small personal space where I document projects,
+            experiments, and my development journey.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="page">
+      <div class="nes-container is-dark with-title">
+          <p class="title">About</p>
+
+          <p>
+          I’m a self-taught frontend/fullstack developer focused on building
+          practical web applications and creative web interfaces.
+          </p>
+
+          <h2>Currently working with:</h2>
+
+          <ul class="nes-list is-disc">
+            <li>Laravel</li>
+            <li>JavaScript</li>
+            <li>Nuxt</li>
+            <li>PHP</li>
+            <li>PostgreSQL</li>
+          </ul>
+
+          <p>
+          I enjoy combining structured backend logic with experimental UI ideas
+          and retro-inspired aesthetics.
+          </p>
+
+          <h2>Recently I’ve been exploring:</h2>
+
+          <ul class="nes-list is-disc">
+            <li>Deployment</li>
+            <li>Performance optimization</li>
+            <li>WebGL / Three.js</li>
+            <li>Interactive frontend experiences</li>
+          </ul>
+      </div>
+      </section>
+
+      <section id="experience" class="page">
+        <div class="nes-container is-dark with-title">
+          <p class="title">Experience</p>
+
+          <p>
+            Most of my experience comes from building real portfolio projects
+            focused on both frontend and backend development.
+          </p>
+
+          <h2>Main areas:</h2>
+
+          <ul class="nes-list is-disc">
+            <li>Laravel backend development</li>
+            <li>Nuxt / JavaScript frontend interfaces</li>
+            <li>Admin panels and dashboard systems</li>
+            <li>Image upload and gallery management</li>
+            <li>Newsletter and email systems</li>
+            <li>Authentication and role-based access</li>
+            <li>Deployment and server configuration</li>
+          </ul>
+
+          <p>
+            I prefer learning through practical development instead of isolated
+            tutorials, which is why most of my skills were built while working on
+            complete applications and solving real implementation problems.
+          </p>
+
+          <h2>Currently improving:</h2>
+
+          <ul class="nes-list is-disc">
+            <li>Application architecture</li>
+            <li>Performance optimization</li>
+            <li>UI/UX consistency</li>
+            <li>Production-ready workflows</li>
+            <li>Creative frontend development</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="page">
+        <div class="nes-container is-dark with-title">
+          <p class="title">Projects</p>
+
+          <div class="project-card">
+            <h2>Laravel Photo Gallery</h2>
+            <p>Admin panel, image uploads, newsletter system, deployment.</p>
+          </div>
+
+          <div class="project-card">
+            <h2>HRM SaaS MVP</h2>
+            <p>Nuxt frontend with role-based dashboard and Laravel API.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="page">
+        <div class="nes-container is-dark with-title">
+          <p class="title">Contact</p>
+          <p>Email: your-email@example.com</p>
+          <p>GitHub: github.com/your-profile</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

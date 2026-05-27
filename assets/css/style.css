@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #101018;
+  color: #fff;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.site-wrapper {
+  /* min-height: 100vh; */
+  max-width: 980px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.site-header {
+  margin-bottom: 32px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.site-main {
+  max-width: 900px;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.nes-container {
+  margin-bottom: 24px;
+}
+
+.project-card {
+  padding: 16px 0;
+  border-bottom: 2px solid #555;
+}
+
+.project-card:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 600px) {
+  .site-wrapper {
+    padding: 16px;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav .nes-btn {
+    width: 100%;
+  }
+}
+
+.nes-list.is-disc li::before {
+  color: #fff !important;
+}
